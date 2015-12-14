@@ -5,4 +5,4 @@ function safetySwitchTriggerCheck() {
         process.exit(1);
     }
 }
-module.exports = safetySwitchTriggerCheck();
+module.exports = safetySwitchTriggerCheck;
