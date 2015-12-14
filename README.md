@@ -6,7 +6,7 @@ Put this zero-config pacakge in code that could cause a hazardous situation, to 
 
 ## How it works
 
-It is a function that simply exits the process unless the environment variable SAFETY_SWITCH_IS_RELEASED is present.
+It is a function that simply exits the process unless the environment variable SAFETY_SWITCH_IS_RELEASED is equal to `true`.
 
 ## Testing
 
