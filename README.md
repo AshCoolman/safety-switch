@@ -2,14 +2,16 @@
 
 ## Intro
 
-Put this zero-config pacakge in code that could cause a hazardous situation, to protect your systems, data and end users from harm.
+This is a simple, zero-config _safety switch_ which will call `process.exit()`, unless the environment variable SAFETY_SWITCH_IS_RELEASED is equal to `true`
 
-## How it works
 
-It is a function that simply exits the process unless the environment variable SAFETY_SWITCH_IS_RELEASED is equal to `true`.
+## Usage & tests
 
-## Testing
+```javascript
+require('safety-switch@1.2.0')();
 
-As its not safe to modify environment variables, the package tests can be run here
+```
 
-https://tonicdev.com/ashcoolman/safety-switch
+As its a bad idea to modify environment variables just for testing - the tests and example usage can be found in the online REPL:
+
+[See tests on tonicdev.com](https://tonicdev.com/ashcoolman/safety-switch)
