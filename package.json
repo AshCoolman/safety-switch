@@ -1,6 +1,6 @@
 {
   "name": "safety-switch",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A zero-config safety switch that will hard exit the process, unless the environment variable SAFETY_SWITCH_IS_RELEASED is exactly set to 'true'",
   "main": "index.js",
   "scripts": {
